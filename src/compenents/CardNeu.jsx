@@ -9,7 +9,7 @@ const CardNeu = ({dat}) => {
           return (
             <Col sm={12} md={6} lg={3}>
               <Card className="card" >
-              <Card.Title>{eleman.title}</Card.Title>
+              <Card.Title className="ms-2">{eleman.title}</Card.Title>
                 <Card.Img className="img" variant="top" src={eleman.image} />
                 <Card.Body className="overlay">
                  

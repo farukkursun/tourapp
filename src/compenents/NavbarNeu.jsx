@@ -3,10 +3,10 @@ import {  Navbar, Nav } from "react-bootstrap";
 const NavbarNeu = () => {
   return (
     <div >
-         <Navbar className="" bg="dark" variant="dark">
+         <Navbar className="p-0 navbar" bg="dark" variant="dark">
         
           
-          <Nav className="nav">
+          <Nav className="nav ">
             <Nav.Link className="navlink" href="#home">ABOUT US</Nav.Link>
             <Nav.Link className="navlink" href="#features">FOR YOU</Nav.Link>
             <Nav.Link className="navlink" href="#pricing">SERVICE</Nav.Link>

@@ -1,15 +1,22 @@
+
 body{
     background-color:rgb(208, 230, 238);
 }
 .nav{
-    margin: 0 auto;
+    margin: auto ;
+    
+    height: 5rem;
+    
 }
 .navlink{
+
+  padding: 1.8rem;
  color: white;
 }
 
 .nav-link:hover{
  background-color: aquamarine;
+ 
 }
 .card{
     background-color: black;
@@ -19,7 +26,10 @@ body{
 .img{
     height:15rem ;
     overflow: hidden;
+    
+    filter: grayscale(0);
 }
+
 .overlay {
     position: absolute;
     
@@ -46,7 +56,9 @@ body{
     
     
   }
-  
+  .card:hover .img{
+    filter: grayscale(100%);
+  }
   .cardtext{
     font-size: 0.8rem;
   }
