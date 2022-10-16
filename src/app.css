@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(208, 230, 238);
+}
+.nav{
+    margin: 0 auto;
+}
+.navlink{
+ color: white;
+}
+
+.nav-link:hover{
+ background-color: aquamarine;
+}
+.card{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.img{
+    height:15rem ;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    
+   
+   
+    bottom:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 0;
+    margin-bottom: -2rem;
+    
+    background-color: rgba(0, 0, 0, 0.404);
+    overflow: hidden;
+    width: 100%;
+    
+    transition: 1s ease-in-out;
+  }
+  .card:hover .overlay{
+    height: auto;
+    margin-bottom: 0;
+  
+    
+    
+  }
+  
+  .cardtext{
+    font-size: 0.8rem;
+  }
