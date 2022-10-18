@@ -7,7 +7,7 @@ const CardNeu = ({dat}) => {
       <Row className=" g-3">
         {dat.map((eleman) => {
           return (
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={4}>
               <Card className="card" >
               <Card.Title className="ms-2">{eleman.title}</Card.Title>
                 <Card.Img className="img" variant="top" src={eleman.image} />
