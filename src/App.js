@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import data from "./data";
 import NavbarNeu from "./compenents/NavbarNeu";
 import "./app.css"
+import Header from "./compenents/Header";
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   return (
     <div>
     <NavbarNeu/>
-     <CardNeu dat= {data}/>
+    <Header/>
+     <CardNeu data= {data}/>
     </div>
   );
 }
